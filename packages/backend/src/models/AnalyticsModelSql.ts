@@ -59,7 +59,6 @@ GROUP BY users.user_uuid,
   users.first_name, 
   users.last_name
 ORDER BY COUNT(analytics_chart_views.user_uuid) DESC
-limit 10
 `;
 
 export const tableMostCreatedChartsSql = (
