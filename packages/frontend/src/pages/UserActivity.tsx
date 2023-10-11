@@ -106,7 +106,8 @@ const chartWeeklyAverageQueries = (
     },
     yAxis: {
         type: 'value',
-        name: 'Weekly average number of\nqueries per user',
+        name: 'Weekly average number of
+queries per user',
         nameLocation: 'center',
         nameGap: '25',
     },
@@ -244,7 +245,7 @@ const UserActivity: FC = () => {
                 <ActivityCard grid="table-most-queries">
                     <Description>
                         Which users have run the most queries in the last 7
-                        days? (top 10)
+                        days?
                     </Description>
 
                     <Table bordered condensed $showFooter={false}>
