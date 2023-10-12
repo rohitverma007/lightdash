@@ -267,7 +267,7 @@ const GroupedSeriesConfiguration: FC<GroupedSeriesConfigurationProps> = ({
                         });
                     }}
                 />
-                {seriesGroup[0].stack && chartValue !== CartesianSeriesType.LINE && (
+                {seriesGroup[0].stack && chartValue !== CartesianSeriesType.LINE && chartValue !== CartesianSeriesType.SCATTER && (
                     <Stack spacing="xs" mt="two">
                         <Text size="xs" fw={500}>
                             Total
